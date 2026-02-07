@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven363'
+        maven '3.8.2'
     }
     options {
         timeout(10)
